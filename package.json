@@ -1,9 +1,10 @@
 {
   "name": "mattermost-api-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Mattermost API Client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/otavionmorais/mattermost-api-client",
   "author": {
     "name": "Otávio Morais",
     "email": "otavio.n.morais@hotmail.com"
