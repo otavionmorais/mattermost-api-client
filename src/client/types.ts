@@ -1,5 +1,3 @@
-import { MattermostVersion } from './constants';
-
 export type User = {
   id: string;
   create_at: number;
@@ -48,7 +46,6 @@ export interface IMattermostClientParams {
   login_id: string;
   password: string;
   baseUrl: string;
-  apiVersion?: MattermostVersion;
 }
 
 export interface IMattermostError {
