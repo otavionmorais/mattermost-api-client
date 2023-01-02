@@ -26,4 +26,4 @@ console.log(channels);
 
 ## This project is discontinued.
 
-### The official Mattermost API Javascript driver is a part of "mattermost-redux" project ([Link here](https://github.com/mattermost/mattermost-redux/blob/master/src/client/client4.ts))
+### The official Mattermost API Javascript driver is available [here](https://www.npmjs.com/package/@mattermost/client).
