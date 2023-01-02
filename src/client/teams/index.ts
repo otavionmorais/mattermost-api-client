@@ -6,7 +6,7 @@ import { Team } from './types';
 export default class Teams {
   constructor(private readonly client: MattermostClient) {}
 
-  public async getUserTeams(userId: string): Promise<Team[]> {
+  public async getTeamsByUser(userId: string): Promise<Team[]> {
     try {
       const { data } = await this.client.get<Team[]>(
         MATTERMOST_ENDPOINTS.LIST_USER_TEAMS(MattermostVersion.V4, userId),
