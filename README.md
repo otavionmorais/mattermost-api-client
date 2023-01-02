@@ -3,6 +3,8 @@
 Usage example:
 
 ```ts
+import MattermostClient from 'mattermost-api-client';
+
 const client = new MattermostClient({
   baseUrl: 'https://yourchaturl.com',
   login_id: 'yourEmail',
@@ -22,4 +24,6 @@ const channels = await client.channels.getChannelsByUserAndTeam(
 console.log(channels);
 ```
 
-## Work in progress...
+## This project is discontinued.
+
+### The official Mattermost API Javascript driver is a part of "mattermost-redux" project ([Link here](https://github.com/mattermost/mattermost-redux/blob/master/src/client/client4.ts))
