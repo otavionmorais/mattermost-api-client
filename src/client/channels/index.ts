@@ -6,7 +6,7 @@ import { Channel } from './types';
 export default class Channels {
   constructor(private readonly client: MattermostClient) {}
 
-  public async getChannelsByUserIdAndTeamId(
+  public async getChannelsByUserAndTeam(
     userId: string,
     teamId: string,
   ): Promise<Channel[]> {
