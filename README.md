@@ -1,4 +1,4 @@
-# Mattermost API Client [UNOFICIAL]
+# Mattermost API Client [UNOFFICIAL]
 
 Usage example:
 
