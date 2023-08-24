@@ -24,6 +24,6 @@ const channels = await client.channels.getChannelsByUserAndTeam(
 console.log(channels);
 ```
 
-## This project is discontinued.
+## This project has been discontinued.
 
 ### The official Mattermost API Javascript driver is available [here](https://www.npmjs.com/package/@mattermost/client).
